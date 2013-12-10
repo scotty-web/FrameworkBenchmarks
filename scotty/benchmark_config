@@ -1,0 +1,17 @@
+{
+    "framework": "scotty",
+    "tests": [{
+            "default": {
+                "setup_file": "setup",
+                "json_url": "/json",
+                "port": 3000,
+                "framework": "scotty",
+                "os": "Linux",
+                "platform": "wai",
+                "webserver": "warp",
+                "display_name": "scotty",
+                "versus": "wai"
+            }
+        }
+    ]
+}
